@@ -18,6 +18,12 @@ const About = () => {
     },
   ];
 
+  const socialLinks = {
+    twitter: "https://twitter.com/dishagiri", // Replace with your Twitter profile URL
+    linkedin: "https://linkedin.com/in/dishagiri", // Replace with your LinkedIn profile URL
+    github: "https://github.com/dishagiri" // Replace with your GitHub profile URL
+  };
+
   return (
     <div className="space-y-8 animate-fade-in">
       <div className="space-y-4">
@@ -51,7 +57,7 @@ const About = () => {
         </p>
         <div className="flex space-x-4">
           <a
-            href="https://twitter.com"
+            href={socialLinks.twitter}
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 rounded-full hover:bg-secondary transition-colors"
@@ -59,7 +65,7 @@ const About = () => {
             <Twitter className="h-6 w-6" />
           </a>
           <a
-            href="https://linkedin.com"
+            href={socialLinks.linkedin}
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 rounded-full hover:bg-secondary transition-colors"
@@ -67,7 +73,7 @@ const About = () => {
             <Linkedin className="h-6 w-6" />
           </a>
           <a
-            href="https://github.com"
+            href={socialLinks.github}
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 rounded-full hover:bg-secondary transition-colors"

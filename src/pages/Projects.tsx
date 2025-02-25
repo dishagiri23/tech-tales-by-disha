@@ -10,12 +10,14 @@ const Projects = () => {
         title: "Tech Blog Platform",
         description: "A modern blog platform built with React and TypeScript",
         isLive: true,
+        url: "https://tech-blog-platform.com", // Replace with actual URL
       },
       {
         id: 2,
         title: "Portfolio Website",
         description: "Personal portfolio showcasing my work and skills",
         isLive: true,
+        url: "https://portfolio-website.com", // Replace with actual URL
       },
     ],
     inProgress: [
@@ -24,6 +26,7 @@ const Projects = () => {
         title: "AI Writing Assistant",
         description: "Smart writing tool powered by GPT-4",
         isInProgress: true,
+        url: "#",
       },
     ],
   };
@@ -53,7 +56,9 @@ const Projects = () => {
               </CardHeader>
               <CardContent>
                 <a
-                  href="#"
+                  href={project.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-sm text-primary hover:underline"
                 >
                   View project →
