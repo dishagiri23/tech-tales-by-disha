@@ -39,7 +39,7 @@ Explore insightful articles on:
 
 ---
 ### 🖥️ Screenshot 1
-![Screenshot 1]()
+![Tech Blog](https://github.com/dishagiri23/tech-tales-by-disha/blob/a857d09b3fb1036ca371d9a66edd26366c4d1971/tech_screenshot.png)
 
 ## 📢 Connect With Me
 💼 **LinkedIn**: [Disha Giri](www.linkedin.com/in/disha-giri-414a72314)
