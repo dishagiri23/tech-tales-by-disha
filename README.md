@@ -12,31 +12,6 @@ Explore insightful articles on:
 
 ---
 
-## 🔥 Featured Projects
-### 💬 Fullstack Project - Real-time Chat App
-📌 A step-by-step guide to building a chat application with modern web technologies.
-
-### 🔗 Mastering LinkedIn Profile
-📌 Optimize your LinkedIn presence for better career opportunities.
-
-### 🤖 AI Code Review Tools
-📌 Discover the best AI-powered tools for automated code review and optimization.
-
-### 🔐 Modern Authentication Solutions
-📌 Implement secure authentication in web and mobile applications.
-
-### 📝 Perfect Tech Resume Guide
-📌 Learn how to create a standout software developer resume.
-
----
-
-## 🏆 My Projects
-### 🌐 Tech Blog Platform
-🚀 A modern blog platform built with **React & TypeScript**.
-
-### 💻 Personal Portfolio Website
-📌 Showcasing my work, skills, and projects in a sleek, responsive design.
-
 ---
 ### 🖥️ Screenshot 1
 ![Tech Blog](https://github.com/dishagiri23/tech-tales-by-disha/blob/a857d09b3fb1036ca371d9a66edd26366c4d1971/tech_screenshot.png)
