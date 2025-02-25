@@ -11,6 +11,7 @@ const Index = () => {
   const categories = [
     {
       title: "AI TOOLS",
+      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800&auto=format&fit=crop&q=60",
       posts: [
         { 
           id: 1, 
@@ -29,6 +30,7 @@ const Index = () => {
     },
     {
       title: "FULLSTACK PROJECT",
+      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&auto=format&fit=crop&q=60",
       posts: [
         { 
           id: 3, 
@@ -47,6 +49,7 @@ const Index = () => {
     },
     {
       title: "CAREER",
+      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&auto=format&fit=crop&q=60",
       posts: [
         { 
           id: 5, 
@@ -84,7 +87,14 @@ const Index = () => {
 
       {filteredCategories.map((category) => (
         <section key={category.title} className="space-y-4">
-          <h2 className="text-2xl font-semibold tracking-tight">{category.title}</h2>
+          <div className="flex items-center gap-4">
+            <img 
+              src={category.image} 
+              alt={category.title}
+              className="w-16 h-16 rounded-lg object-cover shadow-md transition-transform hover:scale-105"
+            />
+            <h2 className="text-2xl font-semibold tracking-tight">{category.title}</h2>
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {category.posts.map((post) => (
               <Card key={post.id} className="card-hover">

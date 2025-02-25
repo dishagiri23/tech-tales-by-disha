@@ -10,14 +10,16 @@ const Projects = () => {
         title: "Tech Blog Platform",
         description: "A modern blog platform built with React and TypeScript",
         isLive: true,
-        url: "https://tech-blog-platform.com", // Replace with actual URL
+        url: "https://tech-blog-platform.com",
+        image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&auto=format&fit=crop&q=60"
       },
       {
         id: 2,
         title: "Portfolio Website",
         description: "Personal portfolio showcasing my work and skills",
         isLive: true,
-        url: "https://portfolio-website.com", // Replace with actual URL
+        url: "https://portfolio-website.com",
+        image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=800&auto=format&fit=crop&q=60"
       },
     ],
     inProgress: [
@@ -27,6 +29,7 @@ const Projects = () => {
         description: "Smart writing tool powered by GPT-4",
         isInProgress: true,
         url: "#",
+        image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800&auto=format&fit=crop&q=60"
       },
     ],
   };
@@ -44,7 +47,14 @@ const Projects = () => {
         <h2 className="text-2xl font-semibold tracking-tight">Launched</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.launched.map((project) => (
-            <Card key={project.id} className="card-hover">
+            <Card key={project.id} className="card-hover overflow-hidden">
+              <div className="h-48 overflow-hidden">
+                <img 
+                  src={project.image} 
+                  alt={project.title}
+                  className="w-full h-full object-cover transition-transform hover:scale-105"
+                />
+              </div>
               <CardHeader>
                 <div className="flex items-center justify-between">
                   <CardTitle className="text-xl">{project.title}</CardTitle>
@@ -73,7 +83,14 @@ const Projects = () => {
         <h2 className="text-2xl font-semibold tracking-tight">In Progress</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.inProgress.map((project) => (
-            <Card key={project.id} className="card-hover">
+            <Card key={project.id} className="card-hover overflow-hidden">
+              <div className="h-48 overflow-hidden">
+                <img 
+                  src={project.image} 
+                  alt={project.title}
+                  className="w-full h-full object-cover transition-transform hover:scale-105"
+                />
+              </div>
               <CardHeader>
                 <div className="flex items-center justify-between">
                   <CardTitle className="text-xl">{project.title}</CardTitle>
