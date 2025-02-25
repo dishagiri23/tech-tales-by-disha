@@ -17,7 +17,7 @@ Explore insightful articles on:
 ![Tech Blog](https://github.com/dishagiri23/tech-tales-by-disha/blob/a857d09b3fb1036ca371d9a66edd26366c4d1971/tech_screenshot.png)
 
 ## 📢 Connect With Me
-💼 **LinkedIn**: [Disha Giri](www.linkedin.com/in/disha-giri-414a72314)
+💼 **LinkedIn**: [Disha Giri](https://www.linkedin.com/in/disha-giri-414a72314/)
 📂 **GitHub**: [Your Repositories](https://github.com/dishagiri23/tech-tales-by-disha)
 📧 **Email**: dishagiri09170@gmail.com
 
