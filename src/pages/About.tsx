@@ -19,9 +19,9 @@ const About = () => {
   ];
 
   const socialLinks = {
-    twitter: "https://twitter.com/dishagiri", // Replace with your Twitter profile URL
-    linkedin: "https://linkedin.com/in/dishagiri", // Replace with your LinkedIn profile URL
-    github: "https://github.com/dishagiri" // Replace with your GitHub profile URL
+    twitter: "https://x.com/DishaGiri831182",
+    linkedin: "https://www.linkedin.com/in/disha-giri-414a72314/",
+    github: "https://github.com/dishagiri23"
   };
 
   return (
