@@ -38,6 +38,8 @@ Explore insightful articles on:
 📌 Showcasing my work, skills, and projects in a sleek, responsive design.
 
 ---
+### 🖥️ Screenshot 1
+![Screenshot 1]()
 
 ## 📢 Connect With Me
 💼 **LinkedIn**: [Disha Giri](www.linkedin.com/in/disha-giri-414a72314)
